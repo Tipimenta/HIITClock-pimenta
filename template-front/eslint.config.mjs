@@ -39,7 +39,7 @@ export default defineConfig([
       'simple-import-sort/exports': 'error',
 
       // Prettier
-      'prettier/prettier': 'error',
+      'prettier/prettier': ['error', { endOfLine: 'crlf' }],
     },
   },
   prettierConfig,
